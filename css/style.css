@@ -3,8 +3,15 @@
 /**************************************************/
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
+.hero-text {
+  font-size: xxx-large;
+  text-align: center;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 7vw;
+}
 
-#hero {
+/* #hero {
   background-color: azure;
 }
 
@@ -18,44 +25,59 @@
 
 #omos {
   background-color: lavender;
-}
+} */
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .hero-text {
+    font-size: xx-large;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 3vw;
+  }
+}
 
 /* END "sm-" 576px and up */
-
 
 /**************************************************/
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* END "md-" 768px and up */
-
 
 /**************************************************/
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
-
   /* END "lg-" 992px and up */
+  .hero-text {
+    font-size: xx-large;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 3vw;
+  }
 }
 
 /**************************************************/
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
-
   /* END "xl-" 1200px and up */
+  .hero-text {
+    font-size: xx-large;
+    margin-left: 32vw;
+    margin-right: 32vw;
+    margin-top: 3vw;
+  }
 }
 
 /**************************************************/
 /* // Extra Extra large (XXL) devices (XXL screens, 1400px and up) */
 /**************************************************/
 @media (min-width: 1400px) {
-
   /* END "xxl-" 1400px and up */
 }
